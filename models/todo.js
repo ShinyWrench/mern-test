@@ -10,6 +10,6 @@ const TodoAppSchema = new Schema({
 })
 
 //create model for todoApp
-const TodoApp = mongoose.model('todo', TodoSchema);
+const TodoApp = mongoose.model('todo', TodoAppSchema);
 
 module.exports = TodoApp;
